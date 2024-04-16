@@ -1,4 +1,4 @@
-package school.sptech.MyWebApplication.user;
+package school.sptech.appweb.entities;
 
 import jakarta.persistence.*;
 

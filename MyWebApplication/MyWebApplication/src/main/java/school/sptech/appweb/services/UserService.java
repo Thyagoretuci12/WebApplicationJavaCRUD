@@ -1,7 +1,10 @@
-package school.sptech.MyWebApplication.user;
+package school.sptech.appweb.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import school.sptech.appweb.entities.User;
+import school.sptech.appweb.exceptions.UserNotFoundException;
+import school.sptech.appweb.repositories.UserRepository;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package school.sptech.MyWebApplication;
+package school.sptech.appweb;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.annotation.Rollback;
-import school.sptech.MyWebApplication.user.User;
-import school.sptech.MyWebApplication.user.UserRepository;
+import school.sptech.appweb.entities.User;
+import school.sptech.appweb.repositories.UserRepository;
 
 import java.util.Optional;
 

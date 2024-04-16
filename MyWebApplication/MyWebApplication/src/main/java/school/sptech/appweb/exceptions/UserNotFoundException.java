@@ -1,4 +1,4 @@
-package school.sptech.MyWebApplication.user;
+package school.sptech.appweb.exceptions;
 
 public class UserNotFoundException extends Throwable{
     public UserNotFoundException(String message) {
